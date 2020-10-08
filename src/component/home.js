@@ -1,6 +1,8 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 
 function HomePage () {
+    const history = useHistory();
     return (
         <>
         <div className="top"></div>
@@ -10,26 +12,26 @@ function HomePage () {
                     <label className="first-name moving-text " >KHiTiTACH</label>
                     <label className="last-name fade-in ">KAMJOHN</label>
                     <div className="button menu fade-in">
-                        <a className="btn-menu" href="/about" >
+                        <button className="btn-menu"  onClick={() => {history.push('/about')}}>
                             <div className="btn menu-text">
                                 ข้อมูลส่วนตัว
                             </div>
-                        </a>
-                        <a className="btn-menu " href="/education" >
+                        </button>
+                        <button className="btn-menu "onClick={() => {history.push('/education')}}>
                             <div className="btn menu-text">
                                 การศึกษา
                             </div>
-                        </a>
-                        <a className="btn-menu " href="/skill" >
+                        </button>
+                        <button className="btn-menu " onClick={() => {history.push('/skill')}}>
                             <div className="btn menu-text">
                                 ทักษะ
                             </div>
-                        </a>
-                        <a className="btn-menu " href="/port" >
+                        </button>
+                        <button className="btn-menu " onClick={() => {history.push('/port')}}>
                             <div className="btn menu-text">
                                 ผลงาน
                             </div>
-                        </a>
+                        </button>
                      
                         {/* <a className="btn-menu" href="/contact" >
                             <div className="btn menu-text">
