@@ -6,7 +6,7 @@ function StartPage () {
     const GotoResume = function () {
         // console.log('hidden page')
         // document.getElementById('startPage').hidden = true
-        history.push('/portfolio/home')
+        history.push('/home')
     }
     return (
         <div className="App-init start-page" id="startPage">

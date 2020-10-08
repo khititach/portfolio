@@ -13,27 +13,27 @@ function Sidebar () {
                 KHiTiTACH
             </div>
             <div className="sidebar-btn">
-                <button className="btn-sidebar" onClick={() => {history.push('/portfolio/home')}}>
+                <button className="btn-sidebar" onClick={() => {history.push('/home')}}>
                     <div className="btn-sidebar-text" >
                         หน้าหลัก
                     </div>
                 </button>
-                <button className="btn-sidebar" onClick={() => {history.push('/portfolio/about')}}>
+                <button className="btn-sidebar" onClick={() => {history.push('/about')}}>
                 <div className="btn-sidebar-text" >
                         ข้อมูลส่วนตัว
                     </div>
                 </button>
-                <button className="btn-sidebar" onClick={() => {history.push('/portfolio/education')}}>
+                <button className="btn-sidebar" onClick={() => {history.push('/education')}}>
                     <div className="btn-sidebar-text" >
                         การศึกษา
                     </div>
                 </button>
-                <button className="btn-sidebar" onClick={() => {history.push('/portfolio/skill')}}>
+                <button className="btn-sidebar" onClick={() => {history.push('/skill')}}>
                     <div className="btn-sidebar-text" >
                         ทักษะ
                     </div>
                 </button>
-                <button className="btn-sidebar" onClick={() => {history.push('/portfolio/port')}}>
+                <button className="btn-sidebar" onClick={() => {history.push('/port')}}>
                     <div className="btn-sidebar-text" >
                         ผลงาน
                     </div>

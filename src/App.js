@@ -23,14 +23,14 @@ function App () {
         {/* <StartPage /> */}
         <Router>
           <Switch>
-            <Route exact path="/portfolio/" component={StartPage} />
+            <Route exact path="/" component={StartPage} />
             {/* <Route exact path="/home" component={NamePage} /> */}
-            <Route exact path="/portfolio/home" component={HomePage} />
-            <Route exact path="/portfolio/about" component={About} />
-            <Route exact path="/portfolio/education" component={Education} />
-            <Route exact path="/portfolio/skill" component={Skill} />
-            <Route exact path="/portfolio/port" component={Portfolio} />
-            <Route exact path="/portfolio/contact" component={Contact} />
+            <Route exact path="/home" component={HomePage} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/education" component={Education} />
+            <Route exact path="/skill" component={Skill} />
+            <Route exact path="/port" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
         </Router>
 
