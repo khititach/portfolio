@@ -23,10 +23,10 @@ function App () {
         {/* <StartPage /> */}
         <Router>
           <Switch>
-            <Route exact path="/" component={StartPage} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={StartPage} />
             {/* <Route exact path="/home" component={NamePage} /> */}
             <Route exact path="/home" component={HomePage} />
-            <Route exact path="/about" component={About} />
+            <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
             <Route exact path="/education" component={Education} />
             <Route exact path="/skill" component={Skill} />
             <Route exact path="/port" component={Portfolio} />
