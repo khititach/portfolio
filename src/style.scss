@@ -543,7 +543,7 @@ body {
     }
 }
 
-.btn-menu .btn.menu-text, a.btn-menu {
+.btn-menu .btn.menu-text, button.btn-menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -681,7 +681,7 @@ body {
         margin: 20px 5px 5px 5px;
     }
     
-     .btn-menu .btn.menu-text, a.btn-menu {
+     .btn-menu .btn.menu-text, button.btn-menu {
         display: flex;
         justify-content: center;
         align-items: center;
