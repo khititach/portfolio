@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f0a7da93.chunk.css",
+    "main.js": "/portfolio/static/js/main.3406a326.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3406a326.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.dfc2f794.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.dfc2f794.js.map",
+    "static/js/2.4fa7ff49.chunk.js": "/portfolio/static/js/2.4fa7ff49.chunk.js",
+    "static/js/2.4fa7ff49.chunk.js.map": "/portfolio/static/js/2.4fa7ff49.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.658093696e2c6d1f9e15e17b473d1719.js": "/portfolio/precache-manifest.658093696e2c6d1f9e15e17b473d1719.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.f0a7da93.chunk.css.map": "/portfolio/static/css/main.f0a7da93.chunk.css.map",
+    "static/js/2.4fa7ff49.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4fa7ff49.chunk.js.LICENSE.txt",
+    "static/media/800px-Naresuanuniversitylogo.png": "/portfolio/static/media/800px-Naresuanuniversitylogo.3a745d54.png",
+    "static/media/TPV Logo.webp": "/portfolio/static/media/TPV Logo.2fcf9a37.webp",
+    "static/media/admin_home_page.jpg": "/portfolio/static/media/admin_home_page.58925683.jpg",
+    "static/media/af.jpg": "/portfolio/static/media/af.06a4893f.jpg",
+    "static/media/af2.jpg": "/portfolio/static/media/af2.f6217c4c.jpg",
+    "static/media/highSchool.png": "/portfolio/static/media/highSchool.1ea5d2f8.png",
+    "static/media/home_page_new.jpg": "/portfolio/static/media/home_page_new.75198a7c.jpg",
+    "static/media/student_home_page.jpg": "/portfolio/static/media/student_home_page.869be218.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfc2f794.js",
+    "static/js/2.4fa7ff49.chunk.js",
+    "static/css/main.f0a7da93.chunk.css",
+    "static/js/main.3406a326.chunk.js"
+  ]
+}
