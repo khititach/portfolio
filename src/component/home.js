@@ -10,22 +10,22 @@ function HomePage () {
                     <label className="first-name moving-text " >KHiTiTACH</label>
                     <label className="last-name fade-in ">KAMJOHN</label>
                     <div className="button menu fade-in">
-                        <a className="btn-menu" href="/about" >
+                        <a className="btn-menu" href="/portfolio/about" >
                             <div className="btn menu-text">
                                 ข้อมูลส่วนตัว
                             </div>
                         </a>
-                        <a className="btn-menu " href="/education" >
+                        <a className="btn-menu " href="/portfolio/education" >
                             <div className="btn menu-text">
                                 การศึกษา
                             </div>
                         </a>
-                        <a className="btn-menu " href="/skill" >
+                        <a className="btn-menu " href="/portfolio/skill" >
                             <div className="btn menu-text">
                                 ทักษะ
                             </div>
                         </a>
-                        <a className="btn-menu " href="/portfolio" >
+                        <a className="btn-menu " href="/portfolio/port" >
                             <div className="btn menu-text">
                                 ผลงาน
                             </div>
